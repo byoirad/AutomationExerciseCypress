@@ -20,6 +20,7 @@ exports.el = {
     zipcode: '#zipcode',
     number: '#mobile_number',
     buttonSignup: 'button[data-qa="create-account"]',
-    buttonContinue: 'a[data-qa="continue-button"]'
+    buttonContinue: 'a[data-qa="continue-button"]',
+    registerErrorMessage: 'form[action="/signup"] p',
 }
 

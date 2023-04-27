@@ -1,0 +1,40 @@
+{
+ "user" : {
+    "name": "James Bond",
+    "email": "jamesbond007@gmail.com",
+    "gender": "Mrs.",
+    "password": "jamessenha007",
+    "birthday": {
+        "day": "21",
+        "month": "March",
+        "year": "2002"
+    },
+    "newsletter": "no",
+    "specialOffers": "yes",
+    "firstName": "James",
+    "lastName": "Bond",
+    "company": "JBC",
+    "address1": "250 5th Ave, New York, NY 10118, USA.",
+    "address2": "175 5th Ave, New York, NY 10118, USA.",
+    "country": "United States",
+    "state": "New York",
+    "city": "Oswego",
+    "zipCode": "35904",
+    "mobileNumber": "+1264231231"
+    },
+
+ "invalidUser" : {
+        
+        "email": "invalid_email@mail.com",
+        "password": "invalidpassword"
+    },
+
+"userContact" : {
+        
+        "name": "Harry Potter",
+        "email": "harrypotter@mail.com",
+        "subject": "Lorem ipsum",
+        "message": "Lorem ipsum dolor sit amet. Eos pariatur quisquam et praesentium quia 33 dolore aperiam sed doloribus doloribus ea magnam labore est aliquam dolor sed consequatur suscipit. A numquam atque sit omnis amet in consequatur autem. Est blanditiis ullam non rerum doloribus qui fuga asperiores ut unde quia hic ipsam rerum non commodi illum eos perspiciatis molestiae."
+    }
+
+}

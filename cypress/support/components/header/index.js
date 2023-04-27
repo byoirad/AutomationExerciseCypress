@@ -5,11 +5,42 @@ const Header = {
    goToLogin: ()=> {
 
     cy.get(el.loginButton).click()
-    cy.get(el.loginPage).should('be.visible')
+},
 
-   },
+   
+   userShouldBeVisible: (user)=> {
 
-    
+      cy.get(el.greeting).parent()
+      .should('have.text', ` Logged in as ${user.name}`)
+
+}, 
+
+   logout: ()=> {
+
+   cy.get(el.logoutButton).click()
+}, 
+
+   goToContactUs: ()=> {
+
+   cy.get(el.contactButton).click()
+
+},
+
+   goToTestCases: ()=> {
+      
+   cy.get(el.testCaseButton).click()
+
+},
+
+   goToProducts: ()=> {
+
+   cy.get(el.productsButton).click()
+   
+}
+
+
+
+
 
 }
 

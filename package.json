@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "cypress": "^12.9.0"
+    "cypress": "^12.9.0",
+    "cypress-file-upload": "^5.0.8"
+  },
+  "dependencies": {
+    "cypress-plugin-api": "^2.11.0"
   }
 }

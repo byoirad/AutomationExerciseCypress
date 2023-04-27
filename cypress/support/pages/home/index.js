@@ -15,13 +15,6 @@ const HomePage = {
 
     },
 
-    userShouldBeVisible: ()=> {
-
-        cy.get(el.userShouldBeVisible).parent()
-        .should('have.text', ' Logged in as James')
-
-    },
-
     deleteAccount: ()=> {
 
         cy.get(el.accountDelete).click()

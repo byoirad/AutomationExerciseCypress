@@ -18,7 +18,7 @@ const SignupPage = {
         cy.get(el.years).select(user.birthday.year)
         if (user.newsletter=="yes") cy.get(el.newsletter).click ()
         if (user.specialOffers=="yes") cy.get(el.specialOffers).click()
-        cy.get(el.firstName).type(user.name)
+        cy.get(el.firstName).type(user.firstName)
         cy.get(el.lastName).type(user.lastName)
         cy.get(el.company).type(user.company)
         cy.get(el.ad1).type(user.address1)
@@ -41,7 +41,15 @@ const SignupPage = {
 
         cy.get(el.buttonContinue).click()
 
-    }
+    },
+
+    registerErrorMessage: ()=> {
+
+        cy.get(el.registerErrorMessage)
+         .should('be.visible') 
+         .should('have.text', 'Email Address already exist!')
+
+    },
 
 }
 
