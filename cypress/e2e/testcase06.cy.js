@@ -25,5 +25,5 @@ describe('Test Case 6', () => {
       ContactPage.homeBack()
       HomePage.shouldBeVisible()
 
-  });
+   });
 });

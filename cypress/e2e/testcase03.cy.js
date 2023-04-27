@@ -23,5 +23,5 @@ describe('Test Case 3', () => {
       LoginPage.submitLogin()
       LoginPage.errorMessage()
       
-  });
+    });
 });

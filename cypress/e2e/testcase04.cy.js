@@ -28,5 +28,5 @@ describe('Test Case 4', () => {
       LoginPage.shouldBeVisible()
       cy.apiDelete(user)
       
-  });
+    });
 });

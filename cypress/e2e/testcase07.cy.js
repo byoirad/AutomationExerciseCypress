@@ -19,5 +19,5 @@ describe('Test Case 7', () => {
       HomePage.shouldBeVisible()
       Header.goToTestCases()
       testCasesPage.shouldBeVisible()
-  });
+    });
 });

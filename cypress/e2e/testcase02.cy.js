@@ -28,5 +28,5 @@ describe('Test Case 2', () => {
       SignupFeedback.deleteAccountShouldBeVisible()
       HomePage.deleteAccountButtonClick()
        
-  });
+    });
 });
