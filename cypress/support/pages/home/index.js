@@ -26,6 +26,12 @@ const HomePage = {
        cy.get(el.deleteAccountContinueButton).click()
 
     },
+
+    ScrollToFooter: ()=> {
+
+        cy.scrollTo(0, 8000)
+ 
+     },
 }
 
 export default HomePage

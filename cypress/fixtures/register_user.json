@@ -23,18 +23,23 @@
     "mobileNumber": "+1264231231"
     },
 
- "invalidUser" : {
-        
-        "email": "invalid_email@mail.com",
-        "password": "invalidpassword"
+    "invalidUser" : {
+            
+            "email": "invalid_email@mail.com",
+            "password": "invalidpassword"
     },
 
-"userContact" : {
-        
-        "name": "Harry Potter",
-        "email": "harrypotter@mail.com",
-        "subject": "Lorem ipsum",
-        "message": "Lorem ipsum dolor sit amet. Eos pariatur quisquam et praesentium quia 33 dolore aperiam sed doloribus doloribus ea magnam labore est aliquam dolor sed consequatur suscipit. A numquam atque sit omnis amet in consequatur autem. Est blanditiis ullam non rerum doloribus qui fuga asperiores ut unde quia hic ipsam rerum non commodi illum eos perspiciatis molestiae."
+    "userContact" : {
+            
+            "name": "Harry Potter",
+            "email": "harrypotter@mail.com",
+            "subject": "Lorem ipsum",
+            "message": "Lorem ipsum dolor sit amet. Eos pariatur quisquam et praesentium quia 33 dolore aperiam sed doloribus doloribus ea magnam labore est aliquam dolor sed consequatur suscipit. A numquam atque sit omnis amet in consequatur autem. Est blanditiis ullam non rerum doloribus qui fuga asperiores ut unde quia hic ipsam rerum non commodi illum eos perspiciatis molestiae."
+    },
+
+    "userSubscription" : {
+            
+            "email": "jamesbond007@gmail.com"
     }
 
 }

@@ -1,7 +1,6 @@
 import HomePage from '../support/pages/home' 
 import Header from '../support/components/header';
 import LoginPage from '../support/pages/login';
-import SignupFeedback from '../support/pages/signupFeedback';
 import SignupPage from '../support/pages/signup';
 
 describe('Test Case 5', () => {

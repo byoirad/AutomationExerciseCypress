@@ -9,12 +9,32 @@ const ProductsPage = {
         .should('have.text', 'All Products')
     },
 
-    viewProduct01: ()=> {
+    viewProduct: (number)=> {
 
-        cy.get(el.productDetail01).click()
+        cy.get(el.productDetail+number).click()
     },
 
+    
+    searchProduct: ()=> {
 
+        cy.get(el.searchProductInput).type('Fancy Green Top')
+        cy.get(el.submitSearch).click()
+    },
+
+    searchProductShouldBeVisible: ()=> {
+
+        cy.get(el.searchedProductsText)
+            .should('be.visible')
+            .should('have.text', 'Searched Products')
+    },
+    
+    relatedProductShouldBeVisible: ()=> {
+        
+        cy.get(el.relatedProduct)
+            .should('be.visible')
+            .should('have.text', 'Fancy Green Top')
+ 
+    },
 }
 
 export default ProductsPage
